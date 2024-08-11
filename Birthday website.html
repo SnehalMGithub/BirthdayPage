@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Rishi !! </title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 250px;
+        }
+        h1 {
+            color: #191970;
+        }
+        .rose {
+            display: none;
+            margin: 0;
+        }
+
+        body {
+        background-image:url('Diy-greeting-cards.jpg'); /* Replace with the path to your image */
+        background-size:cover; /* Ensures the image covers the entire background */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-position: center; /* Centers the image */
+        }
+        audio {
+           position: absolute;
+           top: 700px; /* 100px from the top of the container or window */
+           left: 50%; /* Center horizontally relative to the container or window */
+           transform: translateX(-50%); /* Adjusts for centering */
+           }
+           p3{
+            font-size: 10px;
+            width: 100%;
+            margin: 20px auto; }
+
+
+    </style>
+
+</head>
+<body>
+    <h2>Happy Birthday Rishi💕</h2>
+    <p1>Wish you great year ahead!!</p1>
+    <h1>   </h1>
+    <p2>Wishing you a day filled with <br>
+    joy,laughter, and all your favorite things.<br>
+    Cheers to another great year ahead!</p2>
+    <h2>   </h2>
+    <p3>Please click on the play button dear
+    there's surprise for you !</p3>
+
+    <audio id="birthdaySong" controls>
+        <source src="C:\Users\Snehal\Desktop\New folder\Aise_Kyun_song.mp3" type="audio/mpeg" style="width: 200px; height: auto;">
+    </audio>
+
+    <center>
+    <img id="rosegif" class="rose" src="C:\Users\Snehal\Desktop\New folder\rose.gif"  alt=" Rose GIF" style="width: 200px; height:auto; top:1000px;" >
+    </center>
+
+    <script>
+        document.getElementById('birthdaySong').addEventListener('play', function() {
+            document.getElementById('rosegif').style.display = 'block';
+        });
+    </script>
+
+</body>
+</html>
